@@ -2,7 +2,7 @@
 
 ## Environmental variables
 
-To set up the PDF server locally, you will need to specify some environment variables on the server.
+To set up the PDF server, you will need to specify some environment variables on the server.
 
 |           |  Variable               | Default                   | Description |
 |-----------|-------------------------|---------------------------|-------------|
