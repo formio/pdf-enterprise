@@ -1,0 +1,199 @@
+.dynamicWizard-listgroup .list-group-card {
+  padding: 0;
+  list-style-type: none; }
+  @media (max-width: 568px) {
+    .dynamicWizard-listgroup .list-group-card .list-group-item.list-group-subheader .row {
+      justify-content: space-between; }
+      .dynamicWizard-listgroup .list-group-card .list-group-item.list-group-subheader .row .col-sm-2 {
+        width: auto; } }
+
+.dynamicWizard-listgroup .list-group-field {
+  list-style-type: none; }
+
+.dynamicWizard-changingMode .formio-component {
+  display: none; }
+
+.dynamicWizard-changingMode .formio-component.formio-component-dynamicWizard {
+  display: block; }
+  .dynamicWizard-changingMode .formio-component.formio-component-dynamicWizard .formio-component {
+    display: block; }
+
+.formio-sketchpad-toolbar-input {
+  height: 24px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  width: 40px;
+  margin-left: 5px; }
+
+.btn.formio-sketchpad-toolbar-button {
+  overflow: visible; }
+  .btn.formio-sketchpad-toolbar-button:hover {
+    background: #e6e6e6; }
+  .btn.formio-sketchpad-toolbar-button.active, .btn.formio-sketchpad-toolbar-button:active {
+    outline: 0;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+
+.formio-sketchpad-toolbar-group {
+  background: #f2f2f2;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 3px; }
+
+.formio-sketchpad-toolbar {
+  margin: 0 auto 3px auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 3; }
+
+.formio-sketchpad-svg,
+.formio-sketchpad-background svg {
+  border: 1px dashed #999; }
+
+.formio-sketchpad-background svg {
+  background: #ffffff; }
+
+.formio-sketchpad-body {
+  text-align: left;
+  max-width: 100%; }
+
+.formio-sketchpad-meta-info {
+  text-align: right; }
+
+.formio-sketchpad-container,
+.formio-sketchpad-modal-preview-container {
+  position: relative;
+  z-index: 1;
+  overflow: auto; }
+
+.formio-sketchpad-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.formio-sketchpad-background,
+.formio-sketchpad-modal-preview-background {
+  text-align: center;
+  width: 100%; }
+
+.formio-sketchpad-canvas,
+.formio-sketchpad-modal-preview-drawing {
+  width: 100%;
+  height: 100%; }
+
+.formio-sketchpad-canvas,
+.formio-sketchpad-modal-preview-container .formio-sketchpad-modal-preview-drawing {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  top: 0;
+  left: 0; }
+
+.formio-component-modal-wrapper .component-rendering-hidden .formio-sketchpad-body, .formio-component-modal-wrapper .component-rendering-hidden .formio-tagpad-container {
+  opacity: 0;
+  z-index: -1000;
+  visibility: hidden;
+  pointer-events: none; }
+
+.formio-sketchpad-modal-preview-container {
+  cursor: pointer; }
+
+.formio-tagpad-image-container {
+  float: left;
+  width: 50%;
+  z-index: 1;
+  position: relative;
+  border: 1px dashed #999;
+  border-radius: 3px; }
+
+.formio-tagpad-form-container {
+  width: 50%;
+  float: left; }
+
+.formio-tagpad-canvas {
+  cursor: crosshair;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  top: 0; }
+
+.formio-disabled-input .formio-tagpad-canvas {
+  cursor: not-allowed; }
+
+.formio-disabled-input .formio-tagpad-image-container {
+  background-color: #eee; }
+
+.formio-tagpad-background svg {
+  width: 100%; }
+
+.formio-tagpad-form {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.formio-tagpad-all-data {
+  margin-left: 15px;
+  overflow-y: auto; }
+  .formio-tagpad-all-data ::-webkit-scrollbar-track {
+    background: none; }
+  .formio-tagpad-all-data ::-webkit-scrollbar {
+    width: 0.5em; }
+  .formio-tagpad-all-data ::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 5px; }
+  .formio-tagpad-all-data .dot-preview-label {
+    font-weight: 600;
+    font-size: 1.2rem; }
+  .formio-tagpad-all-data .dot-preview-value {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    max-height: 8.5rem;
+    overflow-x: auto;
+    overflow-y: auto; }
+  .formio-tagpad-all-data .dot-preview-field-label {
+    font-weight: 600; }
+
+.formio-tagpad-dot,
+.formio-tagpad-dot-index {
+  cursor: pointer; }
+
+.formio-tagpad-save-button,
+.formio-tagpad-remove-button {
+  margin-right: 5px;
+  margin-bottom: 5px; }
+
+.formio-tagpad-form-title {
+  font-size: 1.7em; }
+
+.formio-codereader-video-container {
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 3000;
+  background: #000; }
+  .formio-codereader-video-container .formio-codereader-video-close {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer; }
+  .formio-codereader-video-container .formio-codereader-video-switch {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer; }
+  .formio-codereader-video-container .formio-codereader-video-source {
+    height: 100vh;
+    width: 100vw; }
+  .formio-codereader-video-container .formio-codereader-unsupport {
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center; }
