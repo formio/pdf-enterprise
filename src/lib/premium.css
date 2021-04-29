@@ -198,3 +198,6 @@
     font-size: 2rem;
     width: 100%;
     text-align: center; }
+
+.formio-component-datatable .table th .form-group {
+  margin: 0; }
